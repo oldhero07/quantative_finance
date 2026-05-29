@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Claude internal
+.claude/
+
+# Competition files
+highprepPS2.pdf
+Highprep_*.docx
+TechGC_Report.docx
+generate_report.js
+
+# Full outputs (too large) — keep only outputs/test/ key files
+outputs/
+!outputs/test/equity_curve.csv
+!outputs/test/performance.csv
+!outputs/test/signals.csv
+!outputs/test/positions.csv
+!outputs/test/weights.csv
+!outputs/test/weights_daily.csv
+!outputs/test/trade_log.csv
+!outputs/test/portfolio_turnover.csv
+!outputs/test/alpha_decay.csv
+!outputs/test/confidence.csv
+!outputs/test/options_signals.csv
+!outputs/test/options/
+!outputs/test/options/options_signals.csv
+!outputs/test/position_scale.csv
+!outputs/test/regime_labels.csv
+!outputs/test/regime_summary.csv
+!outputs/test/regime/
+!outputs/test/regime/regime_chart.png
+!outputs/test/regime/regime_labels.csv
+!outputs/test/regime/regime_summary.csv
+!outputs/test/regime/regime_transition_matrix.csv
+!outputs/test/backtest_chart.png
+
+# Data (keep test data for dashboard)
+data/
+!data/test/
+
+# OS
+.DS_Store
+Thumbs.db

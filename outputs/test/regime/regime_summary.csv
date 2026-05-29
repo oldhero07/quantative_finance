@@ -1,0 +1,4 @@
+Regime,Days,Pct_of_History,Mean_Daily_Ret,Ann_Return,Daily_Vol,Ann_Vol,Max_1Day_Drop,Position_Scale
+BULL,38,3.0%,+0.094%,+26.9%,2.404%,38.2%,-5.93%,1.0
+BEAR,825,65.3%,+0.046%,+12.3%,0.656%,10.4%,-2.12%,0.7
+CRISIS,400,31.7%,+0.028%,+7.4%,1.055%,16.7%,-3.53%,0.15
